@@ -122,5 +122,6 @@ void Deleting_element_by_position (struct List* my_List, int index)
     my_List->node_array[index].prev_elem = 0;
     my_List->node_array[index].next_elem = my_List->free;
     my_List->free = index;
+    Dump_moment (my_List);
 }
 

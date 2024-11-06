@@ -27,6 +27,7 @@ struct List
     FILE* file_dump;
 };
 
+
 void Constr_List                                (struct List* my_List);
 void Deductr                                    (struct List* my_List);
 void Adding_element_to_the_begging              (struct List* my_List, int added_elem);
